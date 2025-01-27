@@ -25,5 +25,5 @@ source activate mmtcell
 ```
 ### 2. Train the model
 ```
-python train.py
+python ./code/train.py
 ```
