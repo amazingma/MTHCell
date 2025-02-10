@@ -31,3 +31,7 @@ python ./code/train.py
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## Contact
+If you have any questions, please feel free to contact the authors.
+Teng Ma: mateng@csu.edu.cn
