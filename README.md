@@ -36,7 +36,8 @@ python ./code/train.py
 * `num_heads`: Number of attention heads.<br/>
 * `batch_size`: Batch size.<br/>
 * `lr`: Initial learning rate.<br/>
-* `lrf`: Controlling the decay rate of the lr.
+* `lrf`: Controlling the decay rate of the lr.<br/>
+* `label_name`: Column name of cell type.
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
