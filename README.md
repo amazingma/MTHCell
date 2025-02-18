@@ -29,9 +29,9 @@ source activate mmtcell
 python ./code/train.py
 ```
 ### 3. Arguments
-`max_g`<br/>
-`max_gs`<br/>
-`--batch_size`: Batch size<br/>
+`max_g`: Maximum number of gene members in a pathway or regulon<br/>
+`max_gs` Maximum number of pathways or regulons<br/>
+`batch_size`: Batch size<br/>
 `embed_dim`<br/>
 `depth`<br/>
 `num_heads`<br/>
