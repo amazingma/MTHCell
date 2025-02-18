@@ -37,7 +37,7 @@ python ./code/train.py
 * `batch_size`: Batch size.<br/>
 * `lr`: Initial learning rate.<br/>
 * `lrf`: Controlling the decay rate of the lr.<br/>
-* `label_name`: Column name of cell type.
+* `label_name`: Column name of cell type in adata.obs.
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
