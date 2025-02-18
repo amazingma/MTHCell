@@ -29,13 +29,13 @@ source activate mmtcell
 python ./code/train.py
 ```
 ### 3. Arguments
-`max_g`
-`max_gs`
-`--batch_size`: Batch size
-`embed_dim`
-`depth`
-`num_heads`
-`lr`
+`max_g`<br/>
+`max_gs`<br/>
+`--batch_size`: Batch size<br/>
+`embed_dim`<br/>
+`depth`<br/>
+`num_heads`<br/>
+`lr`<br/>
 `lrf`
 
 ## License
