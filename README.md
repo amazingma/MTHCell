@@ -30,7 +30,7 @@ python ./code/train.py
 ```
 ### 3. Key parameters
 `max_g`: Maximum number of gene members in a pathway or regulon.<br/>
-`max_gs` Maximum number of pathways or regulons.<br/>
+`max_gs`: Maximum number of pathways or regulons.<br/>
 `embed_dim`: Embedding dimension.<br/>
 `depth`: Depth of transformer.<br/>
 `num_heads`: Number of attention heads.<br/>
