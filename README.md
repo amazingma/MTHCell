@@ -28,7 +28,7 @@ source activate mmtcell
 ```
 python ./code/train.py
 ```
-To train on your own dataset, you need to provide training and test data, place them in `./data`, and modify the parameter `train_path` and `test_path`.
+To train on your own dataset, you need to provide training and test data, place them in `./data`, and modify the `train_path` and `test_path` parameters.
 ### 3. Key parameters
 * `max_g`: Maximum number of gene members in a pathway or regulon.<br/>
 * `max_gs`: Maximum number of pathways or regulons.<br/>
