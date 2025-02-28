@@ -18,6 +18,8 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10
 ```
 ### 3. Environment has been tested
 `environment.yaml`
+### 4. Obtain Datasets
+The prepared benchmarking set is available at https://zenodo.org/records/14728964.
 
 ## Usage
 ### 1. Activate the created conda environment
