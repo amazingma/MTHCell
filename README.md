@@ -30,8 +30,7 @@ source activate mmtcell
 ```
 python ./code/train.py
 ```
-SGD is chosen as the optimizer, and we use cosine learning rate decay to avoid too large steps in the late stages of training.<br/>
-To train on your own dataset, you need to provide training and test data, place them in `./data`, and modify the `train_path` and `test_path` parameters.
+To train on your own dataset, you need to provide training and test data, place them in `./data`, and modify the `train_path` and `test_path` parameters. SGD is chosen as the optimizer, and we use cosine learning rate decay to avoid too large steps in the late stages of training.
 ### 3. Key parameters
 * `max_g`: Maximum number of gene members in a pathway or regulon.<br/>
 * `max_gs`: Maximum number of pathways or regulons.<br/>
