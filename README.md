@@ -1,4 +1,4 @@
-# MMTCell: Multiscale Multiview Transformers for Cell Type Annotation
+# MMTCell: Multiscale Multiview Transformers for Cell Type Identification
 ![MMTCell](https://github.com/amazingma/MMTCell/blob/main/figures/model.png)
 This repo provides the source code & data of our paper **MMTCell**: **M**ultiscale **M**ultiview **T**ransformers for **Cell** Type Annotation.
 
