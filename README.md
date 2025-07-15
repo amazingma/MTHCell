@@ -1,4 +1,4 @@
-# MTHCell: Multiscale Multiview Transformers for Cell Type Identification
+# MTHCell: a Multiview Transformer-based Hierarchical Fusion Model for Cell Type Identification
 ![MTHCell](https://github.com/amazingma/MTHCell/blob/main/figures/model.png)
 This repo provides the source code & data of our paper **MTHCell**: a **M**ultiview **T**ransformer-based **H**ierarchical Fusion Model for **Cell** Type Identification.
 
