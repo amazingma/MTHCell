@@ -41,6 +41,8 @@ To train on your own dataset, you need to provide training and test data, place 
 * `lr`: Initial learning rate.<br/>
 * `lrf`: Controlling the decay rate of the lr.<br/>
 * `label_name`: Column name of cell type in adata.obs.
+### 4. Computational efficiency
+All experiments are run on a server equipped with an NVIDIA GeForce RTX 2080 Ti (11 GB) GPU. Training one dataset of approximately 10,000 cells takes around 30 minutes, and inference takes less than 10 seconds per dataset.
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
