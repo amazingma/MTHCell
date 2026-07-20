@@ -41,8 +41,21 @@ To train on your own dataset, you need to provide training and test data, place 
 * `lr`: Initial learning rate.<br/>
 * `lrf`: Controlling the decay rate of the lr.<br/>
 * `label_name`: Column name of cell type in adata.obs.
-### 4. Computational efficiency
-All experiments are run on a server equipped with an NVIDIA GeForce RTX 2080 Ti (11 GB) GPU. Training one dataset of approximately 10,000 cells takes around 30 minutes, and inference takes less than 10 seconds per dataset.
+### 4. Preprocessing Pipeline
+- Raw count matrices were processed using Scanpy.
+- Library-size normalization: 10,000 counts per cell.
+- Log1p transformation.
+- Top 3,000 highly variable genes selected using `sc.pp.highly_variable_genes` with `flavor='cell_ranger'`.
+- Gene names were unified to official gene symbols.
+- Pathway mask matrices were constructed using `read_gmt()` to parse MSigDB and Reactome GMT files, followed by `create_pathway_mask()` to generate binary masks (genes × pathways) filtered to retain pathways with ≥5 genes.
+### 5. Computational efficiency
+All experiments are run on a server equipped with an NVIDIA GeForce RTX 2080 Ti (11 GB VRAM) GPU and an Intel Xeon CPU. Training one dataset of approximately 10,000 cells takes around 30 minutes, and inference takes less than 10 seconds per dataset.
+
+## Software & Dependencies
+- Pathway gene sets were obtained from MSigDB version 7.5.1 (January 2022 release) for GO, KEGG, and TF databases.
+- Reactome pathway gene sets were obtained from Reactome version 7.5.1.
+- Scanpy (≥1.9.0) was used for single-cell data preprocessing.
+- PyTorch (≥1.13.0) was used for model implementation.
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
