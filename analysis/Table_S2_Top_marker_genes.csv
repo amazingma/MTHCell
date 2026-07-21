@@ -1,0 +1,41 @@
+﻿Cell Type,Gene,Rank
+Astrocyte,Aqp4,1
+Astrocyte,Slc4a4,2
+Astrocyte,Slc6a11,3
+Astrocyte,Gfap,4
+Astrocyte,Mlc1,5
+Astrocyte,Npas3,6
+Astrocyte,Agt,7
+Astrocyte,Hapln1,8
+Astrocyte,Acsbg1,9
+Astrocyte,Btbd17,10
+Microglial cell,Trem2,1
+Microglial cell,Tmem119,2
+Microglial cell,Siglech,3
+Microglial cell,P2ry13,4
+Microglial cell,Ccl3,5
+Microglial cell,Ccl4,6
+Microglial cell,Cd52,7
+Microglial cell,Rac2,8
+Microglial cell,Itgam,9
+Microglial cell,Ly86,10
+Endothelial cell,Cldn5,1
+Endothelial cell,Esam,2
+Endothelial cell,Fn1,3
+Endothelial cell,Podxl,4
+Endothelial cell,Tm4sf1,5
+Endothelial cell,Anxa2,6
+Endothelial cell,Hmcn1,7
+Endothelial cell,Ly6c1,8
+Endothelial cell,Car4,9
+Endothelial cell,Rgs5,10
+OPC,Pdgfra,1
+OPC,Cspg4,2
+OPC,Vcan,3
+OPC,C1ql1,4
+OPC,Pcdh15,5
+OPC,Cacng4,6
+OPC,Neu4,7
+OPC,Lrrtm3,8
+OPC,Matn4,9
+OPC,Emid1,10

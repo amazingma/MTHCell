@@ -1,0 +1,7 @@
+comparison,n_ref,n_target,DEG_total,DEG_up_in_target,DEG_up_in_ref
+astrocyte_vs_endothelial cell,1059,392,504,308,196
+astrocyte_vs_oligodendrocyte precursor cell,1059,36,122,54,68
+astrocyte_vs_microglial cell,1059,275,377,160,217
+endothelial cell_vs_oligodendrocyte precursor cell,392,36,174,61,113
+endothelial cell_vs_microglial cell,392,275,395,126,269
+oligodendrocyte precursor cell_vs_microglial cell,36,275,165,92,73

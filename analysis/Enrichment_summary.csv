@@ -1,0 +1,49 @@
+comparison,direction,database,n_genes,n_terms_total,n_terms_sig,top_term
+astrocyte_vs_endothelial cell,up_in_target,GO_BP,308,2026,229,Regulation Of Cell Migration (GO:0030334)
+astrocyte_vs_endothelial cell,up_in_target,GO_MF,308,312,23,Cadherin Binding (GO:0045296)
+astrocyte_vs_endothelial cell,up_in_target,GO_CC,308,167,34,Collagen-Containing Extracellular Matrix (GO:0062023)
+astrocyte_vs_endothelial cell,up_in_target,KEGG,308,210,38,Focal adhesion
+astrocyte_vs_endothelial cell,up_in_ref,GO_BP,196,1552,94,Glial Cell Differentiation (GO:0010001)
+astrocyte_vs_endothelial cell,up_in_ref,GO_MF,196,275,12,Amino Acid Transmembrane Transporter Activity (GO:0015171)
+astrocyte_vs_endothelial cell,up_in_ref,GO_CC,196,144,25,Vesicle (GO:0031982)
+astrocyte_vs_endothelial cell,up_in_ref,KEGG,196,188,16,Bile secretion
+astrocyte_vs_oligodendrocyte precursor cell,up_in_target,GO_BP,54,524,24,Cytoplasmic Translation (GO:0002181)
+astrocyte_vs_oligodendrocyte precursor cell,up_in_target,GO_MF,54,90,3,Ubiquitin Ligase Inhibitor Activity (GO:1990948)
+astrocyte_vs_oligodendrocyte precursor cell,up_in_target,GO_CC,54,75,18,Cytosolic Small Ribosomal Subunit (GO:0022627)
+astrocyte_vs_oligodendrocyte precursor cell,up_in_target,KEGG,54,106,1,Ribosome
+astrocyte_vs_oligodendrocyte precursor cell,up_in_ref,GO_BP,68,789,29,Vascular Transport (GO:0010232)
+astrocyte_vs_oligodendrocyte precursor cell,up_in_ref,GO_MF,68,126,16,Amino Acid:Sodium Symporter Activity (GO:0005283)
+astrocyte_vs_oligodendrocyte precursor cell,up_in_ref,GO_CC,68,82,12,Sodium:Potassium-Exchanging ATPase Complex (GO:0005890)
+astrocyte_vs_oligodendrocyte precursor cell,up_in_ref,KEGG,68,90,8,Proximal tubule bicarbonate reclamation
+astrocyte_vs_microglial cell,up_in_target,GO_BP,160,1613,325,Microglial Cell Activation (GO:0001774)
+astrocyte_vs_microglial cell,up_in_target,GO_MF,160,227,9,G Protein-Coupled Purinergic Nucleotide Receptor Activity (GO:0045028)
+astrocyte_vs_microglial cell,up_in_target,GO_CC,160,124,48,Lytic Vacuole (GO:0000323)
+astrocyte_vs_microglial cell,up_in_target,KEGG,160,184,75,Lysosome
+astrocyte_vs_microglial cell,up_in_ref,GO_BP,217,1679,136,Vascular Transport (GO:0010232)
+astrocyte_vs_microglial cell,up_in_ref,GO_MF,217,296,16,Amino Acid Transmembrane Transporter Activity (GO:0015171)
+astrocyte_vs_microglial cell,up_in_ref,GO_CC,217,144,21,Vesicle (GO:0031982)
+astrocyte_vs_microglial cell,up_in_ref,KEGG,217,192,14,Bile secretion
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_target,GO_BP,61,585,19,Glial Cell Differentiation (GO:0010001)
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_target,GO_MF,61,94,1,RAGE Receptor Binding (GO:0050786)
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_target,GO_CC,61,63,7,Perineuronal Net (GO:0072534)
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_target,KEGG,61,79,0,Prostate cancer
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_ref,GO_BP,113,964,93,Blood Vessel Morphogenesis (GO:0048514)
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_ref,GO_MF,113,167,5,Cadherin Binding (GO:0045296)
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_ref,GO_CC,113,111,27,Cell-Substrate Junction (GO:0030055)
+endothelial cell_vs_oligodendrocyte precursor cell,up_in_ref,KEGG,113,144,9,Ribosome
+endothelial cell_vs_microglial cell,up_in_target,GO_BP,126,1340,258,Microglial Cell Activation (GO:0001774)
+endothelial cell_vs_microglial cell,up_in_target,GO_MF,126,193,9,G Protein-Coupled Purinergic Nucleotide Receptor Activity (GO:0045028)
+endothelial cell_vs_microglial cell,up_in_target,GO_CC,126,114,48,Tertiary Granule (GO:0070820)
+endothelial cell_vs_microglial cell,up_in_target,KEGG,126,163,54,Lysosome
+endothelial cell_vs_microglial cell,up_in_ref,GO_BP,269,1942,320,Positive Regulation Of Cell Migration (GO:0030335)
+endothelial cell_vs_microglial cell,up_in_ref,GO_MF,269,299,25,Cadherin Binding (GO:0045296)
+endothelial cell_vs_microglial cell,up_in_ref,GO_CC,269,143,34,Collagen-Containing Extracellular Matrix (GO:0062023)
+endothelial cell_vs_microglial cell,up_in_ref,KEGG,269,188,31,Focal adhesion
+oligodendrocyte precursor cell_vs_microglial cell,up_in_target,GO_BP,92,1046,127,Microglial Cell Activation (GO:0001774)
+oligodendrocyte precursor cell_vs_microglial cell,up_in_target,GO_MF,92,147,8,G Protein-Coupled Purinergic Nucleotide Receptor Activity (GO:0045028)
+oligodendrocyte precursor cell_vs_microglial cell,up_in_target,GO_CC,92,101,41,Cytosolic Small Ribosomal Subunit (GO:0022627)
+oligodendrocyte precursor cell_vs_microglial cell,up_in_target,KEGG,92,134,29,Lysosome
+oligodendrocyte precursor cell_vs_microglial cell,up_in_ref,GO_BP,73,714,4,Glial Cell Differentiation (GO:0010001)
+oligodendrocyte precursor cell_vs_microglial cell,up_in_ref,GO_MF,73,122,1,RAGE Receptor Binding (GO:0050786)
+oligodendrocyte precursor cell_vs_microglial cell,up_in_ref,GO_CC,73,70,7,Perineuronal Net (GO:0072534)
+oligodendrocyte precursor cell_vs_microglial cell,up_in_ref,KEGG,73,105,1,Cardiac muscle contraction

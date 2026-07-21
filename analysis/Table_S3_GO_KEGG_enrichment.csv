@@ -1,0 +1,17 @@
+﻿Cell Type,Database,Top Enriched Term,GO/KEGG ID,N Input Genes,N Significant Terms
+Astrocyte,GO_BP,Glial Cell Differentiation,GO:0010001,196,94
+Astrocyte,GO_MF,Amino Acid Transmembrane Transporter Activity,GO:0015171,196,12
+Astrocyte,GO_CC,Vesicle,GO:0031982,196,25
+Astrocyte,KEGG,Bile secretion,-,196,16
+Microglial cell,GO_BP,Microglial Cell Activation,GO:0001774,160,325
+Microglial cell,GO_MF,G Protein-Coupled Purinergic Nucleotide Receptor Activity,GO:0045028,160,9
+Microglial cell,GO_CC,Lytic Vacuole,GO:0000323,160,48
+Microglial cell,KEGG,Lysosome,-,160,75
+Endothelial cell,GO_BP,Positive Regulation Of Cell Migration,GO:0030335,269,320
+Endothelial cell,GO_MF,Cadherin Binding,GO:0045296,269,25
+Endothelial cell,GO_CC,Collagen-Containing Extracellular Matrix,GO:0062023,269,34
+Endothelial cell,KEGG,Focal adhesion,-,269,31
+OPC,GO_BP,Glial Cell Differentiation,GO:0010001,73,4
+OPC,GO_MF,RAGE Receptor Binding,GO:0050786,73,1
+OPC,GO_CC,Perineuronal Net,GO:0072534,73,7
+OPC,KEGG,Cardiac muscle contraction,-,73,1
